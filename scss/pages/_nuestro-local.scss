@@ -1,0 +1,41 @@
+.cajaaa1 {
+    background-color: rgb(16, 16, 128);
+    text-align: center;
+}
+
+.titulo1 {
+    color: rgb(67, 237, 218);
+}
+
+.cajaaa2 {
+    background-color: rgb(67, 237, 218);
+    text-align: center;
+
+    h3 {
+        color: rgb(16, 16, 128);
+    }
+}
+
+.contenedor-local {
+    text-align: center;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 360px;
+    width: 500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 360px;
+    width: 1252px;
+}
+
+.caja2-local,
+.caja3-local {
+    text-align: center;
+    font-size: 1rem;
+}

@@ -1,0 +1,228 @@
+.contenedor-primero {
+    height: 40vh;
+}
+
+.cajaaa1 {
+    background-color: rgb(16, 16, 128);
+    text-align: center;
+}
+
+.titulo1 {
+    color: rgb(67, 237, 218);
+}
+
+.cajaaa2 {
+    background-color: rgb(67, 237, 218);
+    text-align: center;
+
+    h3 {
+        color: rgb(16, 16, 128);
+    }
+}
+
+.cajaaa3 {
+    background-color: rgb(16, 16, 128);
+    text-align: center;
+}
+
+.titulo2 {
+    color: rgb(67, 237, 218);
+}
+
+.cajaaa4 {
+    text-align: center;
+    font-size: 2rem;
+    display: -webkit-inline-box;
+    margin: 75px;
+}
+
+
+.caja-seccion {
+    background-color: white;
+    font-size: 3rem;
+
+    img:hover {
+        transform: scale(1.03);
+    }
+
+    h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+
+        .caja-seccion samp {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+        }
+        
+        .caja-seccion a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+        }
+    }
+
+
+}
+
+.contenedor-segunda-seccion {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+}
+
+.caja-seccion2 {
+    background-color: white;
+    font-size: 3rem;
+
+    img:hover {
+        transform: scale(1.03);
+    }
+
+
+    h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+    }
+
+
+    samp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+    }
+
+}
+
+
+
+    
+
+
+.contenedor2-segunda-seccion {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+}
+
+
+.caja-seccion3 {
+    background-color: white;
+    font-size: 3rem;
+
+    img:hover {
+        transform: scale(1.03);
+    }
+
+    h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+
+
+        samp {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+        }
+    }
+
+
+
+}
+
+.contenedor3-segunda-seccion {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+}
+
+
+
+.caja-seccion4 {
+    background-color: white;
+    font-size: 3rem;
+
+    img:hover {
+        transform: scale(1.03);
+    }
+
+    h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+
+
+        samp {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+        }
+    }
+
+
+}
+
+.contenedor4-segunda-seccion {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+}
+
+
+.caja-secion5 {
+    font-size: 8rem;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+    }
+
+}
