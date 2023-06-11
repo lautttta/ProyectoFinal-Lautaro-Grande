@@ -38,7 +38,6 @@ ol {
 }
 
 a {
-  text-decoration: none;
   color: rgb(16, 16, 128);
 }
 
@@ -126,14 +125,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja h4 samp {
+.caja span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja h4 samp a {
+.caja a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -161,14 +160,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja2 h4 samp {
+.caja2 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja2 h4 samp a {
+.caja2 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -196,14 +195,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja3 h4 samp {
+.caja3 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja3 h4 samp a {
+.caja3 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -231,14 +230,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja4 h4 samp {
+.caja4 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja4 h4 samp a {
+.caja4 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -266,19 +265,19 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja5 h4 samp {
+.caja5 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-size: 5px;
+  font-size: 16px;
 }
-.caja5 h4 samp a {
+.caja5 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-size: 5px;
+  font-size: 18px;
 }
 
 .contenedor5 {
@@ -301,14 +300,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja6 h4 samp {
+.caja6 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja6 h4 samp a {
+.caja6 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -335,7 +334,7 @@ header {
 .caja7 {
   display: -webkit-inline-box;
   font-size: 2rem;
-  margin: 75px;
+  margin: 50px;
 }
 
 .contenedor-primero {
@@ -372,7 +371,7 @@ header {
   text-align: center;
   font-size: 2rem;
   display: -webkit-inline-box;
-  margin: 75px;
+  margin: 49px;
 }
 
 .caja-seccion {
@@ -389,14 +388,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja-seccion h4 .caja-seccion samp {
+.caja-seccion span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja-seccion h4 .caja-seccion a {
+.caja-seccion a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -424,7 +423,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja-seccion2 samp {
+.caja-seccion2 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -459,14 +458,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja-seccion3 h4 samp {
+.caja-seccion3 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja-seccion3 h4 a {
+.caja-seccion3 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -494,14 +493,14 @@ header {
   align-items: center;
   font-size: 15px;
 }
-.caja-seccion4 h4 samp {
+.caja-seccion4 span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 16px;
 }
-.caja-seccion4 h4 a {
+.caja-seccion4 a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -513,17 +512,6 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 420px 420px 420px;
-}
-
-.caja-secion5 {
-  font-size: 8rem;
-}
-.caja-secion5 a {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 16px;
 }
 
 .cajaaa1 {
@@ -629,6 +617,93 @@ header {
 
 .caja2-contactos {
   text-align: center;
+}
+
+/*--------media-------*/
+/*-------index-------*/
+@media screen and (max-width: 414px) {
+  header {
+    padding: 150px;
+    justify-content: center;
+    display: grid;
+  }
+  .contenedor {
+    display: table-row-group;
+  }
+  .contenedor2 {
+    display: table-row-group;
+  }
+  .inicio-footer {
+    grid-template-columns: auto;
+  }
+  .inicio-nav-list {
+    display: flex;
+    gap: 15px;
+  }
+  .contenedor3 {
+    display: table-row-group;
+  }
+  .contenedor4 {
+    display: table-row-group;
+  }
+  .contenedor5 {
+    display: table-row-group;
+  }
+  .portada-index p {
+    font-size: unset;
+    display: contents;
+    white-space: pre;
+  }
+  .contenedor {
+    display: inline;
+  }
+  .contenedor2 {
+    display: inline;
+  }
+  .contenedor3 {
+    display: inline;
+  }
+  .contenedor4 {
+    display: inline;
+  }
+  .contenedor5 {
+    display: inline;
+  }
+  .contenedor6 {
+    display: inline;
+  }
+  .contenedor-segunda-seccion {
+    display: table-row-group;
+  }
+  .contenedor2-segunda-seccion {
+    display: table-row-group;
+  }
+  .contenedor3-segunda-seccion {
+    display: table-row-group;
+  }
+  .contenedor4-segunda-seccion {
+    display: table-row-group;
+  }
+  .contenedor-segunda-seccion {
+    display: inline;
+  }
+  .contenedor2-segunda-seccion {
+    display: inline;
+  }
+  .contenedor3-segunda-seccion {
+    display: inline;
+  }
+  .contenedor4-segunda-seccion {
+    display: inline;
+  }
+  .inicio-footer {
+    grid-template-columns: auto;
+  }
+  .contenedor-preguntas {
+    justify-content: center;
+    display: grid;
+    margin: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
