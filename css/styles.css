@@ -381,7 +381,9 @@ header {
 .caja-seccion img:hover {
   transform: scale(1.03);
 }
-.caja-seccion h4 {
+.caja-seccion h4:hover {
+  margin-left: 20px;
+  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
