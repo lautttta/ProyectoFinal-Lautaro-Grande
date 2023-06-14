@@ -34,6 +34,8 @@ h3 {
 
 
 
+
+
 * {
     margin: 0%;
     padding: 0%;
@@ -47,6 +49,7 @@ ol {
 }
 
 
-a {
+a:hover{
+    border: solid rgb(16, 16, 128);
     color: rgb(16, 16, 128);
 }

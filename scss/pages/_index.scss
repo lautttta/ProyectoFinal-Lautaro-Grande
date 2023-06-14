@@ -59,9 +59,8 @@
         font-size: 16px;
     }
 
-    a:hover{
-        background-color: aqua;
-     
+    a {
+        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -282,7 +281,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
