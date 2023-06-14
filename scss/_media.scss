@@ -1,233 +1,10 @@
-/*--------media-------*/
-
-/*----------VISTA DESKTOP----------*/
-
-/*-------INDEX-------*/
-
-@media screen and (max-width:1024px) {
-
-
-    .contenedor {
-        grid-template-columns: 350px 350px 350px;
-    }
-
-    .contenedor2 {
-        grid-template-columns: 340px 340px 340px;
-    }
-
-    .contenedor3 {
-        grid-template-columns: 350px 350px 350px;
-    }
-
-    .contenedor4 {
-        grid-template-columns: 350px 350px 350px;
-    }
-
-    .contenedor5 {
-        grid-template-columns: 350px 340px 310px;
-    }
-
-    .contenedor6 {
-        grid-template-columns: 350px 340px 329px;
-    }
-
-    .contenedor-categorias {
-        text-align: -webkit-center;
-    }
-
-    .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
-    }
-
-}
-
-/*-------PRODUCTOS-------*/
-
-
-@media screen and (max-width:1024px) {
-    .contenedor-primero {
-        text-align: -webkit-center;
-    }
-
-    .contenedor-segunda-seccion {
-        grid-template-columns: 350px 340px 329px;
-    }
-
-    .contenedor2-segunda-seccion {
-        grid-template-columns: 350px 350px 350px;
-    }
-
-    .contenedor3-segunda-seccion {
-        grid-template-columns: 340px 340px 340px;
-    }
-
-    .contenedor4-segunda-seccion {
-        grid-template-columns: 350px 350px 350px;
-    }
-
-    .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
-    }
-}
-
-/*-------CONTACTOS-------*/
-
-@media screen and (max-width:1024px) {
-    .contenedor-contactos {
-        height: 450px;
-    }
-
-    .contenedor2-contactos {
-        height: 260px;
-    }
-}
-
-
-/*-------PREGUNTAS FRECUENTES-------*/
-
-@media screen and (max-width:1024px) {
-    .caja-preguntas {
-        height: 50px;
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .caja-preguntas {
-
-        height: 50px;
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .caja-preguntas {
-        height: 50px;
-
-    }
-
-    .contenedor-preguntas {
-        height: 700px;
-    }
-}
-
-
 
 
 /*----------VISTA TABLET----------*/
 
-/*-------INDEX-------*/
 
 
-
-@media screen and (max-width:769px) {
-
-    .contenedor {
-        grid-template-columns: 250px 250px 250px;
-    }
-
-
-    .contenedor2 {
-        grid-template-columns: 250px 250px 250px;
-    }
-
-
-    .contenedor3 {
-        grid-template-columns: 250px 250px 250px;
-
-    }
-
-    .contenedor4 {
-        grid-template-columns: 250px 250px 250px;
-
-    }
-
-    .contenedor5 {
-        grid-template-columns: 250px 250px 250px;
-
-    }
-
-    .contenedor6 {
-        grid-template-columns: 250px 250px 250px;
-
-    }
-
-    .contenedor-categorias {
-        text-align: -webkit-center
-    }
-
-    .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
-    }
-}
-
-
-
-
-
-
-/*-------PRODUCTOS-------*/
-
-
-@media screen and (max-width:769px) {
-    .contenedor-primero {
-        text-align: -webkit-center
-    }
-
-    .contenedor-segunda-seccion {
-        grid-template-columns: 250px 250px 250px;
-
-    }
-
-    .contenedor2-segunda-seccion {
-        grid-template-columns: 250px 250px 250px;
-
-    }
-
-    .contenedor3-segunda-seccion {
-        grid-template-columns: 250px 250px 250px;
-    }
-
-    .contenedor4-segunda-seccion {
-        grid-template-columns: 250px 250px 250px;
-    }
-
-    .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
-    }
-}
-
-
-
-/*-------NUESTRO LOCAL-------*/
+/*------NUESTRO LOCAL-------*/
 @media screen and (max-width:769px) {
 
     .inicio-footer {
@@ -253,6 +30,8 @@
         display: list-item;
     }
 }
+
+
 
 
 /*----------VISTA MOVIL----------*/
@@ -263,10 +42,16 @@
 @media screen and (max-width:414px) {
 
 
-    header {
-        padding: 150px;
-        justify-content: center;
-        display: grid;
+    .header1 {
+        width: 1300px;
+    }
+
+    .main1{
+        width: 1700px;
+    }
+
+    .portada-index{
+        width: 1600px;
     }
 
     .contenedor {
@@ -417,10 +202,11 @@
 @media screen and (max-width:414px) {
 
 
-    header {
+    .header{
         padding: 150px;
         justify-content: center;
         display: grid;
+
     }
 
     .img2 img {
@@ -435,3 +221,6 @@
         grid-template-columns: auto;
     }
 }
+
+
+
