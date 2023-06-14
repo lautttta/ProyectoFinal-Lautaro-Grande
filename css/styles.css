@@ -147,7 +147,7 @@ header {
 .contenedor {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja2 {
@@ -182,7 +182,7 @@ header {
 .contenedor2 {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja3 {
@@ -217,7 +217,7 @@ header {
 .contenedor3 {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja4 {
@@ -252,7 +252,7 @@ header {
 .contenedor4 {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja5 {
@@ -287,7 +287,7 @@ header {
 .contenedor5 {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja6 {
@@ -322,7 +322,7 @@ header {
 .contenedor6 {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .titulo-categorias {
@@ -410,7 +410,7 @@ header {
 .contenedor-segunda-seccion {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja-seccion2 {
@@ -445,7 +445,7 @@ header {
 .contenedor2-segunda-seccion {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja-seccion3 {
@@ -480,7 +480,7 @@ header {
 .contenedor3-segunda-seccion {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja-seccion4 {
@@ -515,7 +515,7 @@ header {
 .contenedor4-segunda-seccion {
   height: 70vh;
   display: grid;
-  grid-template-columns: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cajaaa1 {
@@ -651,17 +651,19 @@ header {
     display: list-item;
   }
 }
+@media screen and (max-width: 556px) {
+  .nav1 {
+    font-size: 0.6rem;
+  }
+}
 /*----------VISTA MOVIL----------*/
 /*-------INDEX-------*/
 @media screen and (max-width: 414px) {
-  .header1 {
-    width: 1300px;
-  }
   .main1 {
-    width: 1700px;
+    width: 100%;
   }
   .portada-index {
-    width: 1600px;
+    width: 100%;
   }
   .contenedor {
     display: table-row-group;
@@ -671,6 +673,7 @@ header {
   }
   .inicio-footer {
     grid-template-columns: auto;
+    display: block;
   }
   .contenedor-categorias {
     display: grid;
@@ -680,7 +683,6 @@ header {
 @media screen and (max-width: 414px) {
   /*-------PREGUNTAS FRECUENTES-------*/
   header {
-    padding: 150px;
     justify-content: center;
     display: grid;
   }
@@ -691,12 +693,12 @@ header {
   }
   .inicio-footer {
     grid-template-columns: auto;
+    display: block;
   }
 }
 /*-------PRODUCTOS-------*/
 @media screen and (max-width: 414px) {
   header {
-    padding: 150px;
     justify-content: center;
     display: grid;
   }
@@ -706,7 +708,6 @@ header {
   }
   .inicio-nav-list {
     display: flex;
-    gap: 15px;
   }
   .contenedor3 {
     display: table-row-group;
@@ -766,23 +767,24 @@ header {
   }
   .inicio-footer {
     grid-template-columns: auto;
+    display: block;
   }
 }
 /*-------NUESTRO LOCAL-------*/
 @media screen and (max-width: 414px) {
   .header {
-    padding: 150px;
     justify-content: center;
     display: grid;
   }
   .img2 img {
-    width: 414px;
+    width: 70%;
   }
   .img3 img {
-    width: 414px;
+    width: 70%;
   }
   .inicio-footer {
     grid-template-columns: auto;
+    display: block;
   }
 }
 

@@ -77,7 +77,7 @@
 .contenedor-segunda-seccion {
     height: 70vh;
     display: grid;
-    grid-template-columns: 420px 420px 420px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .caja-seccion2 {
@@ -125,7 +125,7 @@
 .contenedor2-segunda-seccion {
     height: 70vh;
     display: grid;
-    grid-template-columns: 420px 420px 420px;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 
@@ -169,7 +169,7 @@
 .contenedor3-segunda-seccion {
     height: 70vh;
     display: grid;
-    grid-template-columns: 420px 420px 420px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -213,5 +213,5 @@
 .contenedor4-segunda-seccion {
     height: 70vh;
     display: grid;
-    grid-template-columns: 420px 420px 420px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
