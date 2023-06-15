@@ -1,243 +1,97 @@
-
-
-/*----------VISTA TABLET----------*/
-
-
-
-/*------NUESTRO LOCAL-------*/
-@media screen and (max-width:769px) {
-
-    .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
-    }
-}
-
-
-/*-------PREGUNTAS FRECUENTES-------*/
-@media screen and (max-width:769px) {
-    .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
-       
-    }
+@media screen and (min-width:1024px) {
     
-}
-
-
-/*-------CONTACTOS-------*/
-@media screen and (max-width:769px) {
     .inicio-footer {
-        display: table-footer-group;
-        display: list-item;
+        display: block;
     }
+
 }
 
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .inicio-footer {
+        display: block;
+    }
+    .span1 {
+        display: none;
+    }
 
+}
 
+@media screen and (max-width:767px) {
+    
+    .span1 {
+        display: none;
+    }
 
-@media screen and (max-width:556px){
     .nav1 {
+        font-size: 0.5rem;
+    }
+
+    .caja h4 {
         font-size: 0.6rem;
     }
-}
-
-
-
-
-/*----------VISTA MOVIL----------*/
-
-
-/*-------INDEX-------*/
-
-@media screen and (max-width:414px) {
-
-
-    
-
-    .main1{
-        width: 100%;
+    .caja2 h4 {
+        font-size: 0.6rem;
     }
-
-    .portada-index{
-        width: 100%;
+    .caja3 h4 {
+        font-size: 0.6rem;
     }
-
-    .contenedor {
-
-        display: table-row-group;
+    .caja4 h4 {
+        font-size: 0.6rem;
     }
-
-    .contenedor2 {
-        display: table-row-group;
+    .caja5 h4 {
+        font-size: 0.6rem;
     }
-
-    .inicio-footer {
-        grid-template-columns: auto;
-        display: block;
+    .caja6 h4 {
+        font-size: 0.6rem;
     }
-
-    .contenedor-categorias {
-        display: grid;
-        height: min-content;
-    }
-}
-
-@media screen and (max-width:414px) {
-    /*-------PREGUNTAS FRECUENTES-------*/
-
-     
-     
-    header {
-        
-        justify-content: center;
-        display: grid;
-    }
-
-    .contenedor-preguntas {
-
-        justify-content: center;
-        display: table;
-        margin: 10px;
-    }
-
-    .inicio-footer {
-        grid-template-columns: auto;
-        display: block;
-    }
-}
-
-
-/*-------PRODUCTOS-------*/
-
-@media screen and (max-width:414px) {
-
-    header {
-        
-        justify-content: center;
-        display: grid;
-    }
-    
-    
-
-
-    .contenedor-primero {
-        display: grid;
-        height: min-content
-    }
-
-
-    .inicio-nav-list {
-        display: flex;
-       
-    }
-
-    .contenedor3 {
-        display: table-row-group;
-    }
-
-    .contenedor4 {
-        display: table-row-group;
-    }
-
-    .contenedor5 {
-        display: table-row-group;
-    }
-
-    .portada-index p {
-        font-size: unset;
-        display: contents;
-        white-space: pre;
-    }
-
-    .contenedor {
-        display: inline;
-    }
-
-    .contenedor2 {
-        display: inline;
-    }
-
-    .contenedor3 {
-        display: inline;
-    }
-
-    .contenedor4 {
-        display: inline;
-    }
-
-    .contenedor5 {
-        display: inline;
-    }
-
-    .contenedor6 {
-        display: inline;
-    }
-
-    .contenedor-segunda-seccion {
-        display: table-row-group;
-    }
-
-    .contenedor2-segunda-seccion {
-        display: table-row-group;
-    }
-
-    .contenedor3-segunda-seccion {
-        display: table-row-group;
-    }
-
-    .contenedor4-segunda-seccion {
-        display: table-row-group;
-    }
-
-    .contenedor-segunda-seccion {
-        display: inline;
-    }
-
-    .contenedor2-segunda-seccion {
-        display: inline;
-    }
-
-    .contenedor3-segunda-seccion {
-        display: inline;
-    }
-
-    .contenedor4-segunda-seccion {
-        display: inline;
-    }
-
-    .inicio-footer {
-        grid-template-columns: auto;
-        display: block;
-    }
-}
-
-
-/*-------NUESTRO LOCAL-------*/
-@media screen and (max-width:414px) {
-
-
-    .header{
-        justify-content: center;
-        display: grid;
-
-    }
-
-
     .img2 img {
-        width: 70%;
+        width: 100%;
     }
-
     .img3 img {
-        width: 70%;
+        width: 100%;
     }
-
     .inicio-footer {
-        grid-template-columns: auto;
         display: block;
-    
     }
-}
+    .caja-seccion h4 {
+        font-size: 0.6rem;
+    }
+    .caja-seccion2 h4 {
+        font-size: 0.6rem;
+    }
+    .caja-seccion3 h4 {
+        font-size: 0.6rem;
+    }
+    .caja-seccion4 h4 {
+        font-size: 0.6rem;
+    }
+    .contenedor-primero {
+        height: 100%;
+    }
+
+   
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    
