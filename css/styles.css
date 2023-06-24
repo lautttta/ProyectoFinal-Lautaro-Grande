@@ -148,6 +148,7 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .caja2 {
@@ -183,6 +184,7 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .caja3 {
@@ -218,6 +220,7 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .caja4 {
@@ -253,6 +256,7 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .caja5 {
@@ -288,6 +292,7 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .caja6 {
@@ -323,6 +328,7 @@ header {
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .titulo-categorias {
@@ -381,6 +387,7 @@ header {
 .caja-seccion {
   background-color: white;
   font-size: 3rem;
+  text-align: center;
 }
 .caja-seccion img {
   transform: scale(1.03);
@@ -416,6 +423,7 @@ header {
 .caja-seccion2 {
   background-color: white;
   font-size: 3rem;
+  text-align: center;
 }
 .caja-seccion2 img:hover {
   transform: scale(1.03);
@@ -451,6 +459,7 @@ header {
 .caja-seccion3 {
   background-color: white;
   font-size: 3rem;
+  text-align: center;
 }
 .caja-seccion3 img:hover {
   transform: scale(1.03);
@@ -486,6 +495,7 @@ header {
 .caja-seccion4 {
   background-color: white;
   font-size: 3rem;
+  text-align: center;
 }
 .caja-seccion4 img:hover {
   transform: scale(1.03);
