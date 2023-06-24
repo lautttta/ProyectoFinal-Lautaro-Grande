@@ -53,6 +53,7 @@ a {
   grid-template-columns: 420px 420px 420px;
   align-items: center;
 }
+
 .inicio-footer h3 {
   background-color: rgb(0, 255, 251);
   display: flex;
@@ -61,6 +62,7 @@ a {
   align-items: center;
   font-size: 26px;
 }
+
 .inicio-footer p {
   background-color: white;
   display: flex;
@@ -69,6 +71,7 @@ a {
   align-items: center;
   font-size: 20px;
 }
+
 .inicio-footer h5 {
   background-color: rgb(0, 255, 251);
   display: flex;
@@ -97,6 +100,7 @@ header {
   background-size: cover;
   display: flex;
 }
+
 .portada-index__texto {
   background-color: rgba(137, 43, 226, 0);
   color: rgb(216, 18, 18);
@@ -121,9 +125,11 @@ header {
   background-color: white;
   font-size: 1rem;
 }
+
 .caja img:hover {
   transform: scale(1.03);
 }
+
 .caja h4 {
   display: flex;
   flex-direction: column;
@@ -131,6 +137,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja span {
   display: flex;
   flex-direction: column;
@@ -138,6 +145,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja a {
   display: flex;
   flex-direction: column;
@@ -157,9 +165,11 @@ header {
   background-color: white;
   font-size: 1rem;
 }
+
 .caja2 img:hover {
   transform: scale(1.03);
 }
+
 .caja2 h4 {
   display: flex;
   flex-direction: column;
@@ -167,6 +177,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja2 span {
   display: flex;
   flex-direction: column;
@@ -174,6 +185,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja2 a {
   display: flex;
   flex-direction: column;
@@ -193,9 +205,11 @@ header {
   background-color: white;
   font-size: 1rem;
 }
+
 .caja3 img:hover {
   transform: scale(1.03);
 }
+
 .caja3 h4 {
   display: flex;
   flex-direction: column;
@@ -203,6 +217,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja3 span {
   display: flex;
   flex-direction: column;
@@ -210,6 +225,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja3 a {
   display: flex;
   flex-direction: column;
@@ -229,9 +245,11 @@ header {
   background-color: white;
   font-size: 1rem;
 }
+
 .caja4 img:hover {
   transform: scale(1.03);
 }
+
 .caja4 h4 {
   display: flex;
   flex-direction: column;
@@ -239,6 +257,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja4 span {
   display: flex;
   flex-direction: column;
@@ -246,6 +265,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja4 a {
   display: flex;
   flex-direction: column;
@@ -265,9 +285,11 @@ header {
   background-color: white;
   font-size: 1rem;
 }
+
 .caja5 img:hover {
   transform: scale(1.03);
 }
+
 .caja5 h4 {
   display: flex;
   flex-direction: column;
@@ -275,6 +297,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja5 span {
   display: flex;
   flex-direction: column;
@@ -282,6 +305,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja5 a {
   display: flex;
   flex-direction: column;
@@ -301,9 +325,11 @@ header {
   background-color: white;
   font-size: 1rem;
 }
+
 .caja6 img:hover {
   transform: scale(1.03);
 }
+
 .caja6 h4 {
   display: flex;
   flex-direction: column;
@@ -311,6 +337,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja6 span {
   display: flex;
   flex-direction: column;
@@ -318,6 +345,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja6 a {
   display: flex;
   flex-direction: column;
@@ -349,6 +377,8 @@ header {
   margin: 50px;
 }
 
+/***productos***/
+
 .contenedor-primero {
   height: 40vh;
 }
@@ -366,6 +396,7 @@ header {
   background-color: rgb(67, 237, 218);
   text-align: center;
 }
+
 .cajaaa2 h3 {
   color: rgb(16, 16, 128);
 }
@@ -391,9 +422,11 @@ header {
   font-size: 3rem;
   text-align: center;
 }
+
 .caja-seccion img {
   transform: scale(1.03);
 }
+
 .caja-seccion h4 {
   display: flex;
   flex-direction: column;
@@ -401,6 +434,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja-seccion span {
   display: flex;
   flex-direction: column;
@@ -408,6 +442,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja-seccion a {
   display: flex;
   flex-direction: column;
@@ -427,9 +462,11 @@ header {
   font-size: 3rem;
   text-align: center;
 }
+
 .caja-seccion2 img:hover {
   transform: scale(1.03);
 }
+
 .caja-seccion2 h4 {
   display: flex;
   flex-direction: column;
@@ -437,6 +474,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja-seccion2 span {
   display: flex;
   flex-direction: column;
@@ -444,6 +482,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja-seccion2 a {
   display: flex;
   flex-direction: column;
@@ -463,9 +502,11 @@ header {
   font-size: 3rem;
   text-align: center;
 }
+
 .caja-seccion3 img:hover {
   transform: scale(1.03);
 }
+
 .caja-seccion3 h4 {
   display: flex;
   flex-direction: column;
@@ -473,6 +514,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja-seccion3 span {
   display: flex;
   flex-direction: column;
@@ -480,6 +522,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja-seccion3 a {
   display: flex;
   flex-direction: column;
@@ -499,9 +542,11 @@ header {
   font-size: 3rem;
   text-align: center;
 }
+
 .caja-seccion4 img:hover {
   transform: scale(1.03);
 }
+
 .caja-seccion4 h4 {
   display: flex;
   flex-direction: column;
@@ -509,6 +554,7 @@ header {
   align-items: center;
   font-size: 15px;
 }
+
 .caja-seccion4 span {
   display: flex;
   flex-direction: column;
@@ -516,6 +562,7 @@ header {
   align-items: center;
   font-size: 16px;
 }
+
 .caja-seccion4 a {
   display: flex;
   flex-direction: column;
@@ -530,6 +577,8 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+/***nuestro local***/
+
 .cajaaa1 {
   background-color: rgb(16, 16, 128);
   text-align: center;
@@ -543,6 +592,7 @@ header {
   background-color: rgb(67, 237, 218);
   text-align: center;
 }
+
 .cajaaa2 h3 {
   color: rgb(16, 16, 128);
 }
@@ -577,6 +627,8 @@ header {
   font-size: 1rem;
 }
 
+/***preguntas frecuentes***/
+
 .cajaaa1 {
   background-color: rgb(16, 16, 128);
   text-align: center;
@@ -590,13 +642,17 @@ header {
   background-color: rgb(67, 237, 218);
   text-align: center;
 }
+
 .cajaaa2 h3 {
   color: rgb(16, 16, 128);
 }
+
 .cajaaa2 .contenedor-preguntas {
   font-size: 20px;
 }
 
+/***contactos***/
+
 .cajaaa1 {
   background-color: rgb(16, 16, 128);
   text-align: center;
@@ -610,6 +666,7 @@ header {
   background-color: rgb(67, 237, 218);
   text-align: center;
 }
+
 .cajaaa2 h3 {
   color: rgb(16, 16, 128);
 }
@@ -646,63 +703,82 @@ header {
     display: block;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .inicio-footer {
     display: block;
   }
+
   .span1 {
     display: none;
   }
 }
+
 @media screen and (max-width: 767px) {
   .span1 {
     display: none;
   }
+
   .nav1 {
     font-size: 0.5rem;
   }
+
   .caja h4 {
     font-size: 0.6rem;
   }
+
   .caja2 h4 {
     font-size: 0.6rem;
   }
+
   .caja3 h4 {
     font-size: 0.6rem;
   }
+
   .caja4 h4 {
     font-size: 0.6rem;
   }
+
   .caja5 h4 {
     font-size: 0.6rem;
   }
+
   .caja6 h4 {
     font-size: 0.6rem;
   }
+
   .img2 img {
     width: 100%;
   }
+
   .img3 img {
     width: 100%;
   }
+
   .inicio-footer {
     display: block;
   }
+
   .caja-seccion h4 {
     font-size: 0.6rem;
   }
+
   .caja-seccion2 h4 {
     font-size: 0.6rem;
   }
+
   .caja-seccion3 h4 {
     font-size: 0.6rem;
   }
+
   .caja-seccion4 h4 {
     font-size: 0.6rem;
   }
+
   .contenedor-primero {
     height: 100%;
   }
+
   .inicio-footer {
     text-align: center;
   }
