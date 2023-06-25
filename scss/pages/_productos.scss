@@ -42,12 +42,12 @@
     font-size: 3rem;
     text-align: center;
 
-    img{
+    img {
         transform: scale(1.03);
     }
 
     h4 {
-      
+
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -127,7 +127,7 @@
 .contenedor2-segunda-seccion {
     height: 70vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
